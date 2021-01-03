@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,13 +9,31 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid red;
+    border: 1px solid gray;
     text-align: center;
     padding: 15px;
     position: fixed;
     bottom: 0px;
     width: 100%;
     background-color: aqua;
-    
+    font-family: 'Montserrat', sans-serif;
+}
 
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.svg {
+    z-index: -1;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    padding: 15px;
 }
